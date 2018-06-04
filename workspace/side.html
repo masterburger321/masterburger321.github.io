@@ -1,0 +1,157 @@
+ <!DOCTYPE html>
+
+<html>
+<head>
+     <!--Links-->
+  <title>Master Burger Sideorders</title>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    
+    
+    <!--location, home page, and menu buttons*/-->
+<!-- Navbar (sit on top) -->
+    <div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    
+    <a href="Index.html" class="w3-bar-item w3-button">Master Burger</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    
+    <div class="w3-right w3-hide-small">
+      
+      <a href="loca.html" class="w3-bar-item w3-button">Locations</a>
+      
+      <a href="men.html" class="w3-bar-item w3-button">Menu</a>
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    <h2>Finger Foods and Cakes</h2>
+    
+<img id="cap"src="Capture.PNG"></img>
+    
+ <!--This is the slideshow-->
+  <div class="w3-content w3-section">
+      
+  <a href="#row1"><img class="homepics w3-animate-opacity" src="https://s3-media1.fl.yelpcdn.com/bphoto/DEc_SRIw2N43B3mz6FlGzQ/ls.jpg" >      
+  <a href="#row1"><img class="homepics w3-animate-opacity" src="640x478_ac.jpg" >
+  <a href="#row1"><img class="homepics w3-animate-opacity" src="http://www.coupleofkeys.com/wp-content/uploads/2011/10/tgfc-cae02.jpg" >
+  <a href="#row1"><img class="homepics w3-animate-opacity" src="https://s3-media3.fl.yelpcdn.com/bphoto/F9im2-pkpXuA1j2KwFblrA/ls.jpg">
+  <a href="#row2"><img class="homepics w3-animate-opacity" src="https://topsecretrecipes.com/images/product/burger-king-zesty-onion-ring-sauce-copycat-recipe.jpg" >
+  <a href="#row2"><img class="homepics w3-animate-opacity" src="https://www.cupcakediariesblog.com/wp-content/uploads/2011/08/baked-chicken-nuggets-and-fries-2.jpg" >
+  <a href="#row2"><img class="homepics w3-animate-opacity" src="https://www.unconventionalbaker.com/wp-content/uploads/2015/08/Gluten-Free-Dairy-Free-Egg-Free-Crepes-refined-sugar-free-stack-sq.jpg" >
+  <a href="#row2"><img class="homepics w3-animate-opacity" src="http://media.foodnetwork.ca/recipetracker/dmm/R/I/Rich_Chocolate_Mousse_Cake_001.jpg">
+  <a href="#row3"><img class="homepics w3-animate-opacity" src="https://hips.hearstapps.com/del.h-cdn.co/assets/17/17/1493422530-delish-slow-cooker-cheesecake-pin-01.jpg">
+  <a href="#row3"><img class="homepics w3-animate-opacity" src="http://imagecooking.com/wp-content/uploads/2014/04/Use-this-Tiramisu--1024x686.jpg">
+  <a href="#row3"><img class="homepics w3-animate-opacity" src="https://www.tastesoflizzyt.com/wp-content/uploads/2017/01/easy-strawberry-cake-recipe-10.jpg">
+</div>
+
+
+
+
+<!--this is the coding for the slideshow-->
+<script>
+
+
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("homepics");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 8000);    
+}
+</script>
+</div>
+
+
+
+
+<!--The grid of all pastas-->
+
+<div class="w3-container">
+<div class="grid-container">
+
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row1" src="https://s3-media1.fl.yelpcdn.com/bphoto/DEc_SRIw2N43B3mz6FlGzQ/ls.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>French Fries<br>Small: $2.85<br>Large:$3.85</p4>
+    </div>
+
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row1" src="640x478_ac.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Chili Cheese Fries<br>Small: $5.50<br>Large:$7.50</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row1" src="http://www.coupleofkeys.com/wp-content/uploads/2011/10/tgfc-cae02.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Asada French Fries<br> $13.50</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row1" src="https://s3-media3.fl.yelpcdn.com/bphoto/F9im2-pkpXuA1j2KwFblrA/ls.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Pastrami Chili Cheese Fries<br> $13.50</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row2" src="https://topsecretrecipes.com/images/product/burger-king-zesty-onion-ring-sauce-copycat-recipe.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Onion Rings<br> $4.50</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row2" src="https://www.cupcakediariesblog.com/wp-content/uploads/2011/08/baked-chicken-nuggets-and-fries-2.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Chicken Nuggets With Fries<br> $5.65</p4>
+    </div>
+    
+   <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row2" src="https://www.unconventionalbaker.com/wp-content/uploads/2015/08/Gluten-Free-Dairy-Free-Egg-Free-Crepes-refined-sugar-free-stack-sq.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Crepes<br> $8.99</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row2" src="http://media.foodnetwork.ca/recipetracker/dmm/R/I/Rich_Chocolate_Mousse_Cake_001.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Choclate Mousse Cake<br> $2.95</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row1" src="https://hips.hearstapps.com/del.h-cdn.co/assets/17/17/1493422530-delish-slow-cooker-cheesecake-pin-01.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Cheese Cake<br> $2.95</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="http://imagecooking.com/wp-content/uploads/2014/04/Use-this-Tiramisu--1024x686.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Tiramisu Cake<br> $3.00</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://www.tastesoflizzyt.com/wp-content/uploads/2017/01/easy-strawberry-cake-recipe-10.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Strawberry Cake<br> $2.95</p4>
+    </div>
+ </div>
+
+<!-- location button under the menu (not the one on the bar) -->
+          <div class="nav"> <div class="nav">                      
+             <a href="loca.html">Locations</a>        
+              </br>
+
+          <div class="na"> <div class="na">
+             <a href="men.html">Menu</a>
+               </br>
+</head>
+</html>
+
+

@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<div class="w3-content w3-section">
+  <img class="homepics w3-animate-left" src="breakfast500.jpg" >
+  <img class="homepics w3-animate-left" src="burito500.jpg" >
+  <img class="homepics w3-animate-left" src="nachos500.jpg" >
+  <img class="homepics w3-animate-left" src="tpb500.jpg" >
+  <img class="homepics w3-animate-left" src="steakfries500.jpg" >
+  <img class="homepics w3-animate-left" src="red500.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("homepics");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500);    
+}
+</script>
+
+
+</head>
+</html>

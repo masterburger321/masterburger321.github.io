@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Master Burger Breakfast</title>
+  <!--Links-->
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    
+    
+    <!--location, home page, and menu buttons*/-->
+<!-- Navbar (sit on top) -->
+    <div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    
+    <a href="Index.html" class="w3-bar-item w3-button">Master Burger</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    
+    <div class="w3-right w3-hide-small">
+      
+      <a href="loca.html" class="w3-bar-item w3-button">Locations</a>
+      
+      <a href="men.html" class="w3-bar-item w3-button">Menu</a>
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    <h2>Master Burger Breakfast</h2>
+    
+<img id="cap"src="Capture.PNG"></img>
+    
+ <!--This is the slideshow-->
+  <div class="w3-content w3-section">
+      
+  <a href="#row1"><img class="homepics w3-animate-opacity" src="https://risenroll.com/wp-content/uploads/Bacon-and-Sausage.jpg    " >
+  <a href="#row1"><img class="homepics w3-animate-opacity" src="https://www.mrbreakfast.com/images/1135_fluffy_cheese_omelette_2.jpg    " >
+  <a href="#row1"><img class="homepics w3-animate-opacity" src="https://media-cdn.tripadvisor.com/media/photo-s/07/9b/b2/63/frank-s-restaurant.jpg    " >
+  <a href="#row1"><img class="homepics w3-animate-opacity" src="https://d5dnlg5k9nac9.cloudfront.net/processed/thumbs/845881d5a237de66bdfb319bdd8c64d15ded96e4_r791_530.png    " >
+  
+</div>
+
+
+
+
+<!--this is the coding for the slideshow-->
+<script>
+
+
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("homepics");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 8000);    
+}
+</script>
+</div>
+
+
+
+
+<!--The grid of all breakfast items-->
+
+<div class="w3-container">
+<div class="grid-container">
+
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row1" src="https://risenroll.com/wp-content/uploads/Bacon-and-Sausage.jpg  " alt="" style="width: 300px" "height: 300px">
+    <p4>4 Sausages or Bacon<br>$7.50 </br> </p4>
+    </div>
+
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row1" src="https://www.mrbreakfast.com/images/1135_fluffy_cheese_omelette_2.jpg   " alt="" style="width: 300px" "height: 300px">
+    <p4> Omelettes<br>$10.50</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row1" src="https://media-cdn.tripadvisor.com/media/photo-s/07/9b/b2/63/frank-s-restaurant.jpg   " alt="" style="width: 300px" "height: 300px">
+    <p4>3 Hot Cakes, 4 Bacon or Sausage and 2 Eggs :$7.80<br> 2 French Toast, 4 Bacon or Sausage and 2 Eggs:$8.75<br>3 Big Hot Cakes:$4.30</br></p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img id="row1" src="https://d5dnlg5k9nac9.cloudfront.net/processed/thumbs/845881d5a237de66bdfb319bdd8c64d15ded96e4_r791_530.png   " alt="" style="width: 300px" "height: 300px">
+    <p4>Burritos<br> Sausage or Bacon:$7.50<br>Chicken, Steak: $8.25 </br></p4>
+    </div>
+    
+    
+   
+ </div>
+
+<!-- location button under the menu (not the one on the bar) -->
+          <div class="nav"> <div class="nav">                      
+             <a href="loca.html">Locations</a>        
+              </br>
+
+          <div class="na"> <div class="na">
+             <a href="men.html">Menu</a>
+               </br>
+</head>
+</html>

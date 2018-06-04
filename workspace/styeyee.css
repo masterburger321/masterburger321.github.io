@@ -1,0 +1,568 @@
+body {
+    font-family: "Times New Roman",Georgia, Serif;
+    background-color:#f2f2f2;
+}
+
+
+
+
+/*changing the width,height,how far away it's away from top, and bottom of the logo. Also the color and thickness of bottom border.*/
+
+  #burpic {
+    position:relative;
+    width:18em;
+    height:7em;
+    left:1%;
+    bottom:8em;
+    border-bottom: 3px solid blue;
+    
+  }
+  
+  
+  
+/*changing the width, height, and how far away it's away from the top of the banner*/
+  #banner {
+    width:100%;
+    height:65em;
+    position:relative;
+    top:40px;
+    
+  }
+  
+  
+  
+  
+/*changing the width, height, and how far away it's away from top, and right for the master burger picture.*/
+  #banic{
+    height: 50%;
+    width: 35%;
+    position: relative;
+    top:10.50em;
+    right:10%;
+ }
+  
+  
+  
+   
+/*changing how far away it's away from right, letter-spacing, and  font-family for about us text.*/
+  h1{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    position: relative;
+    left:50%;
+    bottom:6.3em;
+ }
+
+
+
+h4{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    position: relative;
+    left:50%;
+    bottom:11.3em;
+ }
+
+
+
+
+
+  h6{
+   font-family: "Playfair Display";
+    letter-spacing: 5px;
+    position: relative;
+    left:50%;
+    width:36%;
+    bottom:12.3em;
+ }
+
+
+
+
+
+  .nav {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    right:0%;
+    top:2em;
+    cursor: pointer;
+    text-decoration:none;
+    padding-top: 10px;
+ }
+
+
+  .na {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    right:0%;
+    top:7em;
+    cursor: pointer;
+    text-decoration:none;
+    
+ }
+
+
+
+  #men{
+    width: 60%;
+    height:40%;
+    top:3em;
+    position: relative;
+    left:1.07em;
+    color:red;
+    padding-bottom: 50px;
+ }
+
+
+
+
+  html {
+   box-sizing: border-box;
+ }
+
+
+
+
+  *, *:before, *:after {
+   box-sizing: inherit;
+ }
+
+
+  .column {
+   position:relative;
+   left:20%;
+   top:8em;
+   width:16%;
+   margin-bottom: 16px;
+   padding:20 8px;
+ }
+
+
+
+  .card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 03);
+   position:relative;
+   bottom: 1.4em;
+   right:4.7em;
+ }
+
+
+
+
+  .container {
+   
+   position:relative;
+   
+   
+   
+ }
+
+
+
+  .container::after, .row::after {
+   content: "";
+   clear: both;
+    
+   display: table;
+ }
+
+
+
+
+  .title {
+   color: grey;
+ }
+
+
+
+
+  .button {
+   border: none;
+   outline: 0;
+   display: inline-block;
+   padding: 8px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 90%;
+ }
+
+
+
+
+  .button:hover {
+   background-color: #555;
+ }
+  
+
+  
+  
+  .m2{
+    position:relative;
+    bottom: 17.4em;
+    left:16.78em;
+}
+    
+    
+    
+    
+    
+    
+  .m3{
+    position:relative;
+    bottom: 15.4em;
+    left:15.6em;
+}   
+    
+    
+    
+    
+    
+    
+  .m4{
+    position:relative;
+    bottom: 10.76em;
+    cursor: pointer;
+    text-decoration:none;
+    padding-top: 10px;  
+} 
+
+  
+  
+  
+
+  h2{
+   font-family: "Playfair Display";
+    letter-spacing: 5px;
+    position: relative;
+    left:43%;
+    top:3.9em;
+}
+    
+    
+    
+    
+  .contain {
+   position: relative;
+   top:250px;
+   max-width: 400px;
+   left:15%;
+ }
+
+
+
+
+
+  .contain img {
+    width: 50%;
+    height:5%;
+ }
+
+
+
+
+  .contain .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #F9D94C;
+    color:white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    Text-decoration:none;
+ }
+
+
+
+
+
+  .contain .btn:hover {
+   background-color: white;
+   color:red;
+ }
+
+
+
+  .grid {
+  display: grid;
+  grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+  vertical-align: center;
+  position:relative;
+  top:50%;
+  right:10%;
+ }
+
+
+
+
+  .grid img {
+    position:relative;
+    width:15em;
+    height:20em;
+    padding:10px;
+    
+}
+
+
+
+  p{
+   font-family: "Playfair Display";
+    letter-spacing: 5px;
+    position: relative;
+    left:63%;
+    color: black;
+    bottom:1.3em;
+    width: 20%;
+}
+
+
+
+
+
+  #bancc{
+ height: 25%;
+ width: 25%;
+ position: relative;
+ bottom:16.30em;
+ left:5%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width:70%;
+    display: block;
+   
+  }
+   
+   
+   
+  .nav {
+    
+   font-family: "Playfair Display";
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    left:1%;
+    top:2em;
+    cursor: pointer;
+    text-decoration:none;
+    padding-top: 10px;
+}
+  
+  
+  
+  #banic{
+ height:90%;
+ width: 75%;
+ position: relative;
+ bottom:.1110%;
+ left:16%;
+}
+
+
+  h1{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    position: relative;
+    left:20%;
+    top:2em;
+}
+
+
+
+h4{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    position: relative;
+    left:20%;
+    top:2.9em;
+}
+
+  h6{
+  font-family: "Playfair Display";
+    letter-spacing: 5px;
+    position: relative;
+    left:20%;
+    width:66%;
+    top:4em;
+}
+
+
+  #men{
+    width: 90%;
+    height:20em;
+    top:3em;
+    left:-.35em;
+}
+
+  html {
+  box-sizing: border-box;
+}
+
+  *, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 03);
+   position:relative;
+    bottom: 1.4em;
+    right:.7em;
+}
+
+  .container {
+  padding:0 16px;
+  position:relative;
+  top:30%;
+  left:0%;
+
+}
+
+  .container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  .title {
+  color: grey;
+}
+
+  .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+  .button:hover {
+  background-color: #555;
+}
+  
+  
+  
+  .grid {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr  / 1fr;
+  vertical-align: center;
+  position:relative;
+  top:.3em;
+  right:12.2%;
+}
+
+  .grid img {
+    position:relative;
+    width:15em;
+    height:20em;
+    padding:10px;
+    
+}
+
+
+
+
+  h2{
+  font-family: "Playfair Display";
+    letter-spacing: 5px;
+    position: relative;
+    left:40%;
+    top:.9em;
+}
+   
+   
+   
+   
+  .m2{
+    position:relative;
+    bottom: .2em;
+    left:.1%;
+}
+    
+  .m3{
+    position:relative;
+    bottom: 1.4%;
+    left:.1em;
+}   
+    
+  .m4{
+    position:relative;
+    bottom: 2%;
+    cursor: pointer;
+    text-decoration:none;
+    padding-top: 10px;  
+}
+
+
+  #burpic {
+   position:relative;
+   width:18em;
+   height:7em;
+   left:10%;
+   bottom:5em;
+   border-bottom: 3px solid red;
+    
+ }
+ 
+ 
+  #banic{
+   height: 80%;
+   width: 75%;
+   position: relative;
+   top:.50em;
+   left:3.5em;
+ }
+ 
+ 
+ 
+  #bancc{
+ height: 25%;
+ width: 75%;
+ position: relative;
+ bottom:.30em;
+ left:13%;
+}
+
+
+
+ p{
+   font-family: "Playfair Display";
+    letter-spacing: 5px;
+    position: relative;
+    left:20%;
+    color: black;
+    top:38.3em;
+    width: 70%;
+}
+
+#banner{
+    Height:32em;
+ }

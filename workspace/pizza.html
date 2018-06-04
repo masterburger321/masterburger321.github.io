@@ -1,0 +1,126 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Master Burger Pastas</title>
+  <!--Links-->
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    
+    
+    <!--location, home page, and menu buttons*/-->
+<!-- Navbar (sit on top) -->
+    <div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    
+    <a href="Index.html" class="w3-bar-item w3-button">Master Burger</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    
+    <div class="w3-right w3-hide-small">
+      
+      <a href="loca.html" class="w3-bar-item w3-button">Locations</a>
+      
+      <a href="men.html" class="w3-bar-item w3-button">Menu</a>
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    <h2>Pizzas served at Master Burger </h2>
+    
+<img id="cap"src="Capture.PNG"></img>
+    
+ <!--This is the slideshow-->
+  <div class="w3-content w3-section">
+      
+  <img class="homepics w3-animate-opacity" src="https://s3-media4.fl.yelpcdn.com/bphoto/BYDG7219n63Kkd6c_sK5bQ/o.jpg" >
+  <img class="homepics w3-animate-opacity" src="https://www.cicis.com/media/1143/pizza_adven_zestyveggie.png" >
+  <img class="homepics w3-animate-opacity" src="https://www.davidlebovitz.com/wp-content/uploads/2011/08/tomato-basil-pizza-recipe.jpg" >
+  <img class="homepics w3-animate-opacity" src="https://s3-media3.fl.yelpcdn.com/bphoto/zdmKaZZjmwlMB0NCihNRtA/o.jpg" >
+  <img class="homepics w3-animate-opacity" src="http://advancedlifestylemedicine.com/wp-content/uploads/2013/08/P1010011-2-640x480.jpg" >
+  <img class="homepics w3-animate-opacity" src="pizza1.jpg" >
+  
+</div>
+
+
+
+
+<!--this is the coding for the slideshow-->
+<script>
+
+
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("homepics");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 8000);    
+}
+</script>
+</div>
+
+
+
+
+<!--The grid of all pastas-->
+
+<div class="w3-container">
+<div class="grid-container">
+
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://s3-media4.fl.yelpcdn.com/bphoto/BYDG7219n63Kkd6c_sK5bQ/o.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Meat Lovers<br> $18.25</p4>
+    </div>
+
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://www.cicis.com/media/1143/pizza_adven_zestyveggie.png" alt="" style="width: 300px" "height: 300px">
+    <p4>Vegeterian<br>$16.99</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://www.davidlebovitz.com/wp-content/uploads/2011/08/tomato-basil-pizza-recipe.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Margherita<br> $12.00</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://s3-media3.fl.yelpcdn.com/bphoto/zdmKaZZjmwlMB0NCihNRtA/o.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Pesto Pizza<br> $18.90</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="http://advancedlifestylemedicine.com/wp-content/uploads/2013/08/P1010011-2-640x480.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Cheese Pizza<br> $11.99</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="pizza1.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Pepperoni Pizza<br> $16.90</p4>
+    </div>
+    
+   
+ </div>
+
+<!-- location button under the menu (not the one on the bar) -->
+          <div class="nav"> <div class="nav">                      
+             <a href="loca.html">Locations</a>        
+              </br>
+
+          <div class="na"> <div class="na">
+             <a href="men.html">Menu</a>
+               </br>
+</head>
+</html>

@@ -1,0 +1,121 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Master Burger Dinner</title>
+  <!--Links-->
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    
+    
+    <!--location, home page, and menu buttons*/-->
+<!-- Navbar (sit on top) -->
+    <div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    
+    <a href="Index.html" class="w3-bar-item w3-button">Master Burger</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    
+    <div class="w3-right w3-hide-small">
+      
+      <a href="loca.html" class="w3-bar-item w3-button">Locations</a>
+      
+      <a href="men.html" class="w3-bar-item w3-button">Menu</a>
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    <h2>Pizzas served at Master Burger </h2>
+    
+<img id="cap"src="Capture.PNG"></img>
+    
+ <!--This is the slideshow-->
+  <div class="w3-content w3-section">
+      
+   <img class="homepics w3-animate-opacity" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7PGIs04V6hQ2AMETo4x-QnEg8avbLYkXqm__RraQ_NWh3TTI0" >
+   <img class="homepics w3-animate-opacity" src="https://s3-media2.fl.yelpcdn.com/bphoto/qRLvrY_qS5FAZJoOAXfpWg/o.jpg" >
+   <img class="homepics w3-animate-opacity" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-EvhWUfyViuz_qkhOzbg-KpX6ikEtDgK3zjtFhIxj2g4d4He" >  
+   <img class="homepics w3-animate-opacity" src="https://cdn.cpnscdn.com/static.coupons.com/ext/kitchme/images/recipes/600x400/copycat-chilis-fajitas_39361.jpg" >
+   <img class="homepics w3-animate-opacity" src="https://res.cloudinary.com/grubhub/image/upload/f_auto,fl_lossy,q_80,c_fill,w_200,h_150/erkvvuwezeafxjmlijvu" >
+ 
+  
+</div>
+
+
+
+
+<!--this is the coding for the slideshow-->
+<script>
+
+
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("homepics");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 8000);    
+}
+</script>
+</div>
+
+
+
+
+<!--The grid of all pastas-->
+
+<div class="w3-container">
+<div class="grid-container">
+
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7PGIs04V6hQ2AMETo4x-QnEg8avbLYkXqm__RraQ_NWh3TTI0" alt="" style="width: 300px" "height: 300px">   
+    <p4>4pcs Fried Chicken Dinner<br> $9.95</p4>
+    </div>
+
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://s3-media2.fl.yelpcdn.com/bphoto/qRLvrY_qS5FAZJoOAXfpWg/o.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4> Carne Asada Steak Dinner<br> $10.50</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-EvhWUfyViuz_qkhOzbg-KpX6ikEtDgK3zjtFhIxj2g4d4He" alt="" style="width: 300px" "height: 300px">
+    <p4>4pcs Chicken Strip Dinner<br>$8.50</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://cdn.cpnscdn.com/static.coupons.com/ext/kitchme/images/recipes/600x400/copycat-chilis-fajitas_39361.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Fajitas<br>$10.85</p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://res.cloudinary.com/grubhub/image/upload/f_auto,fl_lossy,q_80,c_fill,w_200,h_150/erkvvuwezeafxjmlijvu" alt="" style="width: 300px" "height: 300px">
+    <p4>21 Pcs Shrimp Dinner<br>$8.50</p4>
+    </div>
+    
+    
+
+<!-- location button under the menu (not the one on the bar) -->
+          <div class="nv"> <div class="nav">                      
+             <a href="loca.html">Locations</a>        
+              </br>
+
+          <div class="n"> <div class="na">
+             <a href="men.html">Menu</a>
+               </br>
+</head>
+</html>

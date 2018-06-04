@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Master Burger Pastas</title>
+  <!--Links-->
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    
+    
+    <!--location, home page, and menu buttons*/-->
+<!-- Navbar (sit on top) -->
+    <div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    
+    <a href="Index.html" class="w3-bar-item w3-button">Master Burger</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    
+    <div class="w3-right w3-hide-small">
+      
+      <a href="loca.html" class="w3-bar-item w3-button">Locations</a>
+      
+      <a href="men.html" class="w3-bar-item w3-button">Menu</a>
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    <h2>Pizzas served at Master Burger </h2>
+    
+<img id="cap"src="Capture.PNG"></img>
+    
+ <!--This is the slideshow-->
+  <div class="w3-content w3-section">
+      
+  <img class="homepics w3-animate-opacity" src="https://sparkpeo.hs.llnwd.net/e1/resize/630m620/e2/guid/Cheese-quesadilla/0c64b22e-6591-47be-96d3-7726a91b1c53.jpg" >
+  <img class="homepics w3-animate-opacity" src="http://www.5boysbaker.com/wp-content/uploads/2016/06/cheesey-ground-beef-quesadillas.jpg" >
+  <img class="homepics w3-animate-opacity" src="burito500.jpg" >
+  <img class="homepics w3-animate-opacity" src="http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_4014_StockFood-00682585cut.jpg" >
+  <img class="homepics w3-animate-opacity" src="https://media.eggs.ca/assets/RecipePhotos/_resampled/FillWyIxMjgwIiwiNjIwIl0/Breakfast-Burrito-with-Bacon-Egg-Guacamole-CMS.jpg" >
+  <img class="homepics w3-animate-opacity" src="nachos.jpg" >
+  <img class="homepics w3-animate-opacity" src="https://images1.phoenixnewtimes.com/imager/u/745xauto/9715618/img_9448.jpg" >
+  <img class="homepics w3-animate-opacity" src="http://images.smuckers.ca/images/recipes/3_new/recipe_825.jpg" >
+  <img class="homepics w3-animate-opacity" src="https://memphisgrills.com/wp-content/uploads/2016/09/Korean-Tacos.jpg" >
+  
+</div>
+
+
+
+
+<!--this is the coding for the slideshow-->
+<script>
+
+
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("homepics");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 8000);    
+}
+</script>
+</div>
+
+
+
+
+<!--The grid of all pastas-->
+
+<div class="w3-container">
+<div class="grid-container">
+
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://sparkpeo.hs.llnwd.net/e1/resize/630m620/e2/guid/Cheese-quesadilla/0c64b22e-6591-47be-96d3-7726a91b1c53.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Quesidilla<br> $8.50</br>Topped with Sour Cream</br></p4>
+    </div>
+
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="http://www.5boysbaker.com/wp-content/uploads/2016/06/cheesey-ground-beef-quesadillas.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Steak Or Chicken Or Cheese Quesadilla<br> $8.50</br>Topped with Sour Cream</br></p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="burito500.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Master Wet Burrito <br> $10.50</br>Include rice,beans,cheese,onions,cilantro,<br>lettuce,tomatoes,sour cream. Topped with cheese (choiceof green or red sauce).</br></p4>
+    </div>
+     
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_4014_StockFood-00682585cut.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Any meat burrito <br> $8.50</br>Include rice,beans,cheese,onions,cilantro,salsa</br></p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://media.eggs.ca/assets/RecipePhotos/_resampled/FillWyIxMjgwIiwiNjIwIl0/Breakfast-Burrito-with-Bacon-Egg-Guacamole-CMS.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>California Burrito <br> $9.98 </br></p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="nachos.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Nachos Plate <br> $9.50 </br></p4>
+    </div>
+    
+   <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://images1.phoenixnewtimes.com/imager/u/745xauto/9715618/img_9448.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Torta<br>8.25 </br></p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="http://images.smuckers.ca/images/recipes/3_new/recipe_825.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Enchiladas<br>12.00 </br></p4>
+    </div>
+    
+    <div class="w3-card-2" style="width: 300px" "height: 300px">
+    <img src="https://memphisgrills.com/wp-content/uploads/2016/09/Korean-Tacos.jpg" alt="" style="width: 300px" "height: 300px">
+    <p4>Tacos <br>1.85 </br></p4>
+    </div>
+ </div>
+
+
+<!-- location button under the menu (not the one on the bar) -->
+          <div class="nav"> <div class="nav">                      
+             <a href="loca.html">Locations</a>        
+              </br>
+
+          <div class="na"> <div class="na">
+             <a href="men.html">Menu</a>
+               </br>
+</head>
+</html>
+
